@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<!-- --------- UNICONS ---------- -->
+<link
+rel="stylesheet"
+href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+/>
+
+<!-- --------- CSS ---------- -->
+<link rel="stylesheet" href="assets/css/style.css" />
+
+<!-- --------- FAVICON ---------- -->
+<link
+rel="shortcut icon"
+href="assets/images/favicon.png"
+type="image/x-icon"
+/>
+
+<title>Tabel Data Mahasiswa</title>
+<style>
+/*Styling untuk tabel */
+.container {
+  text-align: center; /* Center text inside container */
+  width: 100%; /* Full width */
+  max-width: 800px; /* Optional: set a max width for the container */
+}
+
+table {
+  margin-top: 100px; /* Adjust spacing as needed */
+  margin-bottom: 30px;
+  width: 100%; /* Full width of container */
+  border-collapse: collapse;
+  background-color: rgb(212, 235, 254);
+}
+
+th,
+td {
+  border: 1px solid rgb(0, 0, 0);
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #2a6076;
+  color: #ffffff;
+}
+
+.featured-text-info p {
+  color: rgb(247, 247, 247);
+}
+
+/* Styling untuk footer */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 30px;
+  background: #fafafa;
+  padding-block: 40px 60px;
+}
+.top-footer p {
+  font-size: 25px;
+  font-weight: 600;
+  color:#000000;
+}
+.middle-footer .footer-menu {
+  display: flex;
+}
+.footer_menu_list {
+  list-style: none;
+}
+.footer_menu_list a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 500;
+  margin-inline: 20px;
+}
+.footer-social-icons {
+  display: flex;
+  gap: 30px;
+}
+.bottom-footer {
+  font-size: 14px;
+  margin-top: 10px;
+  color: #000000;
+}
+    </style>
+  </head>
+<body>
+<div class="container">
+<!-- --------------- HEADER --------------- -->
+<nav id="header">
+  <div class="nav-logo">
+    <p class="nav-name">Table</p>
+    <span>.</span>
+  </div>
+  <div class="nav-menu" id="myNavMenu">
+    <ul class="nav_menu_list">
+      <li class="nav_list">
+        <a href="index.html" class="nav-link active-link">Home</a>
+        <div class="circle"></div>
+      </li>
+      <li class="nav_list">
+        <a href="table.html" class="nav-link">Cara Membuat Tabel</a>
+        <div class="circle"></div>
+      </li>
+      <li class="nav_list">
+        <a href="form.html" class="nav-link">Cara Membuat Form</a>
+        <div class="circle"></div>
+      </li>
+      <li class="nav_list">
+        <a href="tutorial.html" class="nav-link">Tutorial</a>
+        <div class="circle"></div>
+      </li>
+      
+    </ul>
+  </div>
+  <div class="nav-menu-btn">
+    <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+  </div>
+</nav>
+  <body>
+    <h2>Data Mahasiswa</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>NIM</th> 
+          <th>Nama</th> 
+          <th>IPK Sem 1</th> 
+          <th>IPK Sem 2</th> 
+          <th>IPK Sem 3</th> 
+          <th>IPK Sem 4</th> 
+          <th>IPK Sem 5</th> 
+          <th>IPK Sem 6</th> 
+          <th>IPK Sem 7</th> 
+          <th>IPK Sem 8</th> 
+          <th>Jurusan</th> 
+          <th>Fakultas</th> 
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>344900311</td>
+          <td>Mercy S Batuani</td>
+          <td>3.0</td>
+          <td>3.2</td>
+          <td>3.4</td>
+          <td>3.2</td>
+          <td>3.5</td>
+          <td>3.4</td>
+          <td>3.6</td>
+          <td>3.9</td>
+          <td>Sistem Informasi</td>
+          <td>Fakultas Teknik</td>
+        </tr>
+        <tr>
+          <td>344900412</td>
+          <td>Bagas Suni</td>
+          <td>2.3</td>
+          <td>2.5</td>
+          <td>2.7</td>
+          <td>3.0</td>
+          <td>2.9</td>
+          <td>3.1</td>
+          <td>3.4</td>
+          <td>4.0</td>
+          <td>Teknik Sipil</td>
+          <td>Fakultas Teknik</td>
+        </tr>
+        <tr>
+          <td>399900309</td>
+          <td>Raya Billgates</td>
+          <td>3.0</td>
+          <td>3.0</td>
+          <td>3.5</td>
+          <td>3.0</td>
+          <td>3.3</td>
+          <td>3.6</td>
+          <td>3.8</td>
+          <td>3.9</td>
+          <td>Kedokteran Gigi</td>
+          <td>Fakultas Kedokteran Gigi</td>
+        </tr>
+        <tr>
+            <td>300900310</td>
+            <td>Naulu Devi</td>
+            <td>4.0</td>
+            <td>3.9</td>
+            <td>3.9</td>
+            <td>4.0</td>
+            <td>3.8</td>
+            <td>3.6</td>
+            <td>3.9</td>
+            <td>4.0</td>
+            <td>Ilmu Komunikasi</td>
+            <td>Fakultas Ilmu Sosial dan Ilmu Politik</td>
+          </tr>
+          <tr>
+            <td>388900310</td>
+            <td>Alexander</td>
+            <td>3.0</td>
+            <td>3.0</td>
+            <td>3.5</td>
+            <td>3.3</td>
+            <td>3.2</td>
+            <td>3.1</td>
+            <td>3.6</td>
+            <td>3.7</td>
+            <td>Hukum</td>
+            <td>Fakultas Hukum</td>
+          </tr>
+          <tr>
+            <td>388900311</td>
+            <td>Patric Pink</td>
+            <td>3.9</td>
+            <td>4.0</td>
+            <td>3.8</td>
+            <td>4.0</td>
+            <td>4.0</td>
+            <td>3.9</td>
+            <td>3.8</td>
+            <td>3.9</td>
+            <td>Hukum</td>
+            <td>Fakultas Hukum</td>
+          </tr>
+          <tr>
+            <td>388900312</td>
+            <td>Sandy Tupai</td>
+            <td>3.3</td>
+            <td>3.6</td>
+            <td>3.5</td>
+            <td>3.7</td>
+            <td>3.9</td>
+            <td>4.0</td>
+            <td>3.9</td>
+            <td>3.9</td>
+            <td>Hukum</td>
+            <td>Fakultas Hukum</td>
+          </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="featured-text-info">
+    <p>
+      Untuk membuat tabel dalam HTML, pertama-tama kamu harus menggunakan tag table sebagai pembungkus
+       utama tabel. Di dalamnya, kamu bisa menambahkan tag thead untuk bagian kepala tabel yang biasanya
+        berisi judul kolom, dan tag tbody untuk data tabelnya.
+
+        Setiap baris dalam tabel didefinisikan dengan tag tr. Di dalam tag tr, kamu bisa menggunakan tag
+         th untuk mendefinisikan judul kolom di kepala tabel, dan tag td untuk mengisi sel data di bagian isi tabel.
+    </p>
+        <!-- --------------- FOOTER --------------- -->
+        <footer>
+          <div class="top-footer">
+            <p>Dhea Giri Nugraheni</p>
+          </div>
+          <div class="middle-footer">
+            <ul class="footer-menu">
+              <li class="footer_menu_list">
+                <a href="#home">Home</a>
+              </li>
+              <li class="footer_menu_list">
+                <a href="#about">About</a>
+              </li>
+              <li class="footer_menu_list">
+                <a href="#projects">Projects</a>
+              </li>
+              <li class="footer_menu_list">
+                <a href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-social-icons">
+            <div class="icon"
+            onClick="window.open('https://www.instagram.com/dheagiri/profilecard/?igsh=NjM0NnZxcHI1M2hp', '_blank')">
+            <i class="uil uil-instagram"></i></div>
+            
+            <div class="icon"
+            onClick="window.open('https://www.linkedin.com/in/dheagiri/', '_blank')">
+            <i class="uil uil-linkedin-alt"></i></div>
+            <div class="icon"><i class="uil uil-dribbble"></i></div>
+            <div class="icon"><i class="uil uil-github-alt"></i></div>
+          </div>
+          <div class="bottom-footer">
+            <p>
+              Copyright &copy;
+              <a href="#home" style="text-decoration: none">Dhea</a> - All
+              rights reserved
+            </p>
+          </div>
+        </footer>
+      </div>
+
+      <!-- ----- TYPING JS Link ----- -->
+      <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  
+      <!-- ----- SCROLL REVEAL JS Link----- -->
+      <script src="https://unpkg.com/scrollreveal"></script>
+  
+      <!-- ----- MAIN JS ----- -->
+      <script src="assets/js/main.js"></script>
+   
+  
+    
+  </body>
+</html>
